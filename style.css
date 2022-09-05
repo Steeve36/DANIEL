@@ -1,0 +1,65 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body {  
+     
+    font-size:large;
+    font-weight: 500;
+}  
+
+h1
+{
+   color: #0A2E60;
+}
+
+.container
+{
+	background-color: white;
+    display: flex;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    bottom: 50px;
+    right:50px;
+    align-items: center;
+    justify-content: space-around;
+}
+#carte {
+	align-items: center;
+	justify-content: center;
+	width : 800px ;
+	margin : 0 auto ;
+	background - color : white ;
+	text - align : center ;
+	align - content : center ;
+}
+
+img {
+	height: 185px;
+}
+
+.Photos{
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+button{
+	display: inline-block;
+    text-decoration: none;
+    padding:15px 40px ;
+    margin-right: 40px;
+    background-color: #0A2E60;
+    color:#fefefe;
+    border: rgb(196, 183, 201);
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: background 0.5s;
+    font-size:large;
+}
+
+button:hover {
+    background: #552184;
+}
